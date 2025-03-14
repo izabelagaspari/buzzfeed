@@ -77,4 +77,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quizz_results > h2{
+  margin-bottom: 20px;
 }
