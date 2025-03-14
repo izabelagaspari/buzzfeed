@@ -1,7 +1,8 @@
 .quizz__container{
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
+  font-family: 'Segoe UI';
 }
 
 .quizz_logo{
@@ -9,24 +10,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-}
+  margin-bottom: 30px;
+  }
 
 .quizz_logo > h3{
-  margin-top: 20px;
+  margin-top: 40px;
+  font-style: italic;
+  font-family: 'Segoe UI';
+  font-size: 35px;
 }
 
 .quizz_questions{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4224d9;
+  border: 1px solid #ffffff;
   border-radius: 8px;
-  background-color: #644ed2;
+  background-color: #c27b10;
   width: 100%;
-  height: 200px;
-  font-size: 20px;
-  font-family: 'Segoe UI';
+  height: 70px;
+  font-size: 25px;
+  font-family: 'Arial';
   margin-bottom: 20px;
 }
 
@@ -35,25 +39,26 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  gap: 18px;
 }
 .btn-option{
   background-color: transparent;
-  border-radius: 8px;
-  border: 1px solid #18ab29;
-  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  width: 45%;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
+  font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f662f;
+  text-shadow: 0px 1px 0px #83d883;
 }
 
 .btn-option:hover{
-  background-color: #5cbf2a;
+  background-color: #297764;
 }
 
 .btn-option:active{
@@ -63,9 +68,10 @@
 
 .quizz_results{
   width: 100%;
-  height: 350px;
-  background-color: #1f0539;
+  height: 200px;
+  background-color: #297764;
   border-radius: 10px;
+  font-family: 'Segoe UI';
   padding: 30px;
   display: flex;
   flex-direction: column;

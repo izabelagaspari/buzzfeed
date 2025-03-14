@@ -3,7 +3,7 @@
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Como você descreve seu estilo de trabalho ?",
       "options":[
         {"id": 1, "name":"Estruturado e organizado", "alias":"A"},
         {"id": 2, "name":"Criativo e experimental", "alias":"B"},
