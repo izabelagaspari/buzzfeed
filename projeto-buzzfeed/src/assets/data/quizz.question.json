@@ -1,0 +1,62 @@
+{
+  "title":"Qual é o seu perfil de desenvolvedor?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual super poder você escolheria ?",
+      "options":[
+        {"id": 1, "name":"Estruturado e organizado", "alias":"A"},
+        {"id": 2, "name":"Criativo e experimental", "alias":"B"},
+        {"id": 3, "name":"Prático e eficiente", "alias":"C"},
+        {"id": 4, "name":"Detalhista e cuidados", "alias":"D"}
+
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual é o seu ambiente de trabalho ideal?",
+      "options":[
+        {"id": 1, "name":"Um escritório silencioso e bem iluminado", "alias":"A"},
+        {"id": 2, "name":"Um espaço aberto e colaborativo", "alias":"B"},
+        {"id": 3, "name":"Em qualquer lugar, desde que tenha meu laptop", "alias":"C"},
+        {"id": 4, "name":"Um laboratório cheio de tecnologia", "alias":"D"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "O que você valoriza mais em um projeto?",
+      "options":[
+        {"id": 1, "name":"Clareza e precisão", "alias":"A"},
+        {"id": 2, "name":"Inovação e novas ideias", "alias":"B"},
+        {"id": 3, "name":"Rapidez e funcionalidade", "alias":"C"},
+        {"id": 4, "name":"Estabilidade e segurança", "alias":"D"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Como você lida com problemas complexos?",
+      "options":[
+        {"id": 1, "name":"Divido em partes menores e resolvo passo a passo", "alias":"A"},
+        {"id": 2, "name":"Penso fora da caixa e tento abordagens diferentes", "alias":"B"},
+        {"id": 3, "name":"Procuro soluções práticas e diretas", "alias":"C"},
+        {"id": 4, "name":"Analiso detalhadamente até encontrar a solução ideal", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual é seu tipo de projeto favorito para trabalhar?",
+      "options":[
+        {"id": 1, "name":"Desenvolvimento de sistemas e softwares complexos", "alias":"A"},
+        {"id": 2, "name":"Criação de jogos e experiências interativas", "alias":"B"},
+        {"id": 3, "name":"Desenvolvimento de aplicativos web e mobile", "alias":"C"},
+        {"id": 4, "name":"Trabalhos de ciência de dados e automação", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Java: Você é organizado e valoriza a clareza e precisão. Java é uma linguagem robusta e de fácil manutenção, ideal para quem gosta de trabalhar de forma estruturada e metódica.",
+    "B": "Python: Você é criativo e experimental. Python é uma linguagem versátil e de fácil leitura, perfeita para quem gosta de inovar e explorar novas ideias.",
+    "C": "JavaScript: Você é prático e eficiente. JavaScript é uma linguagem dinâmica e funcional, ideal para quem precisa de rapidez e eficácia no desenvolvimento de aplicativos web e mobile.",
+    "D": "C++: Você é detalhista e cuidadoso. C++ é uma linguagem poderosa e de baixo nível, excelente para quem gosta de trabalhar com precisão e focar na estabilidade e segurança dos projetos."
+  }
+}
